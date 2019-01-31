@@ -1,5 +1,5 @@
 # dropwizard-sandbox
-=======
+
 How to start:
 ---
 
