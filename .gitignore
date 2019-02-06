@@ -1,4 +1,5 @@
 *.idea
-surette-dropwizard.iml
+*.iml
 dependency-reduced-pom.xml
 target/*
+*/target/*
