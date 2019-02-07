@@ -1,4 +1,7 @@
 logging:
   level: INFO
-  loggers:
-    com.surette.dropwizard: DEBUG
+  appenders:
+    - type: file
+      currentLogFilename: ./logs/example.log
+      archivedLogFilenamePattern: ./logs/example-%d.log.gz
+      archivedFileCount: 5
