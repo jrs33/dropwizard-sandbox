@@ -6,6 +6,10 @@ logging:
       archivedLogFilenamePattern: ./logs/example-%d.log.gz
       archivedFileCount: 5
 
+database:
+  driverClass: "com.mysql.jdbc.Driver"
+  url: "jdbc:mysql://localhost/users?user=root"
+
 # Set up SSL http://www.eclipse.org/jetty/documentation/current/configuring-ssl.html
 #server:
 #  applicationConnectors:
